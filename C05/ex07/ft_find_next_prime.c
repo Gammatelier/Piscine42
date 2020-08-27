@@ -23,7 +23,7 @@ int		ft_is_prime(int nb)
 	else
 		x = 3;
 	{
-		while (nb >= x * x)
+		while (nb >= x * x && x < 46341)
 		{
 			if ((nb % x == 0) && nb != x)
 				return (0);
