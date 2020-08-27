@@ -23,7 +23,7 @@ int		ft_is_prime(int nb)
 	else
 		x = 3;
 	{
-		while (x < 46341) // 46341 because squre root of int max is below 46341
+		while (nb >= x * x && x < 46341) // 46341 because squre root of int max is below 46341
 		{
 			if ((nb % x == 0) && nb != x)
 				return (0);
