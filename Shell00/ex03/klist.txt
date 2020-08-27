@@ -1,0 +1,5 @@
+Credentials cache: API:61B40D2B-A0C7-4780-8C63-FC0A823EAB16
+        Principal: dhers@42.FR
+
+  Issued                Expires               Principal
+Aug  4 18:04:41 2020  Aug 11 18:04:41 2020  krbtgt/42.FR@42.FR
