@@ -25,7 +25,7 @@ int		ft_is_prime(int nb)
 	{
 		while (nb >= x * x)
 		{
-			if (nb % x == 0)
+			if ((nb % x == 0) && nb != x)
 				return (0);
 			x += 2;
 		}
